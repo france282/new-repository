@@ -559,8 +559,8 @@ header .menu{
 .services-list div{
   
     background: #191919;
-    height: 300px;
-    width: 500px;
+    height: 300px auto;
+    width: 600px;
     border-radius:10px;
     position: relative;
     overflow: hidden ;
@@ -1111,6 +1111,33 @@ border: #080808;
     padding: 16px 36px;
 
 }
+
+.timeline{
+    margin: 50px auto;
+}
+.timeline::after{
+    left: 31px;
+}
+.container1{
+    width: 100%;
+    padding-left: 80px;
+    padding-left: 25px;
+}
+.text-box{
+    font-size: 13px;
+    left: 15px;
+}
+.text-box small{
+    margin-bottom: 10px;
+}
+.right-container{
+    left:0;
+}
+.left-container img, .right-container img{
+    left: 10px;
+}
+
+
 }
 
 #preloader{
