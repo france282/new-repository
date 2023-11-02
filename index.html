@@ -486,9 +486,7 @@ document.querySelectorAll('nav a').forEach(anchor => {
   const wrapper = document.querySelector('.wrapper');
 
   button3.addEventListener('click', function (event) {
-    event.preventDefault(); // Prevent the link from navigating
-
-    // Toggle the "visible" class on the wrapper
+    event.preventDefault(); 
     wrapper.classList.toggle('visible');
   });
 });
