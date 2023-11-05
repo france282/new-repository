@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>Mhel</title>
     <script src="https://kit.fontawesome.com/85b59895ec.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Tech-hub</title>
+   
+
 </head>
 <body>
     <div id="preloader">
-        <div class="mainlogo" id="mainlogo"><img src="images/bglogo.png" alt=""> </div>
+        <div class="mainlogo" id="mainlogo">
+            <img src="images/bglogo.png" alt="error">
+        </div>
 
 
         <div class="svg-frame">
@@ -57,7 +62,7 @@
     <div id="header">
         <header>
             <input type ="checkbox" name ="" id ="chk1">
-            <div class="logo"><a href="#header"><img src="images/app_logo.png" alt=""></a></div>
+            <div class="logo"><a href="#header"><img src="images/111111.png" alt=""></a></div>
                 <ul>
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About Us</a></li>
@@ -81,7 +86,7 @@
 <!-- the---------------------------------------------------------------------------------------------------------------------- -->
      
             <div class="container">
-                <div class="header-text">
+                <div class="header-text" >
                     <h1>Tech <span>Hub</span><br> <p class="h11">Join <span>now</p></span> </h1>
                 </div>
             </div>
@@ -139,23 +144,17 @@
    
     <!-- -----------------------About----------------------- -->
  
-    <div id="about" class="hidden">
+    <div id="about" data-aos="fade-up">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/pngwing.com (10).png" alt="error" data-aos="flip-left">
+                    <img src="images/pngwing.com (10).png" alt="error">
                 </div>
-                <div class="about-col-2" data-aos="fade-left"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine">
-                    <h1 class="sub-title" data-aos="zoom-in">About Us</h1>
-                    <p data-aos="fade-left"
-                    data-aos-offset="300"
-                    data-aos-easing="ease-in-sine">Welcome to our accomplished team of innovators and skilled professionals. We are more than just a team; we are a dynamic collective of experts. Our diverse range of skills, expertise, and creative spirit is the driving force behind our work. With a backdrop of beautiful minds and the tools of the trade, we're committed to transforming your ideas into reality. Whether it's crafting exceptional products or delivering top-notch services, our mission is to exceed your expectations. Join us on this journey of excellence, where your vision becomes our passion."
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1>
+                    <p>Welcome to our accomplished team of innovators and skilled professionals. We are more than just a team; we are a dynamic collective of experts. Our diverse range of skills, expertise, and creative spirit is the driving force behind our work. With a backdrop of beautiful minds and the tools of the trade, we're committed to transforming your ideas into reality. Whether it's crafting exceptional products or delivering top-notch services, our mission is to exceed your expectations. Join us on this journey of excellence, where your vision becomes our passion."
                     </p>
-                    <div class="tab-titles" data-aos="fade-left"
-                    data-aos-offset="300"
-                    data-aos-easing="ease-in-sine">
+                    <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
                         <p class="tab-links" onclick="opentab('education')">Education</p>
@@ -192,12 +191,12 @@
 
     <!-- -----------------------services----------------------- -->
 
-    <div id="services" class="hidden">
+    <div id="services" data-aos="fade-up">
         <div class="container">
-            <h1 class="sub-title" style="text-align: center;" data-aos="zoom-in">My Services</h1>
+            <h1 class="sub-title" style="text-align: center;">My Services</h1>
 
             <div class="services-list">
-                <div id="service" data-aos="fade-right">
+                <div id="service">
                     
                     <h2>Mhel Francis Bitanga</h2>
                     <p>Unlock rapid project creation with our innovative tools and platforms. Our streamlined solutions empower you to tackle multiple projects efficiently. From web development to app design, our tools and community support you at every step. Supercharge your productivity and bring your ideas to life faster than ever before, making the most of your time and skills.
@@ -206,10 +205,10 @@
                         <span class="circle" aria-hidden="true">
                         <span class="icon arrow"></span>
                         </span>
-                        <span class="button-text">Learn More</span>
+                        <a href="learnmore.html" target="_blank"><span class="button-text">Learn More</span></a>
                       </button>
                 </div>
-                <div id="service" data-aos="fade-left">
+                <div id="service">
                    
                     <h2>Christian Josh Bilaro</h2>
                     <p>Discover versatile PPE for head protection. Our innovative gear combines comfort, safety, and adaptability in one. Ideal for multiple uses, it caters to various needs across industries. Whether it's hard hats, face shields, or innovative headgear, our PPE ensures top-tier protection without compromising comfort.</p>
@@ -217,10 +216,10 @@
                         <span class="circle" aria-hidden="true">
                         <span class="icon arrow"></span>
                         </span>
-                        <span class="button-text">Learn More</span>
+                        <a href="learnmore.html" target="_blank"><span class="button-text">Learn More</span></a>
                       </button>
                 </div>
-                <div id="service" data-aos="fade-right">
+                <div id="service">
                     
                     <h2>Jay-ar Bonagua</h2>
                     <p>Step into the future of audio with our voice-command headphones. Designed for accessibility, they cater to users with disabilities, offering hands-free control and impeccable sound quality. Experience a new level of convenience and freedom while enjoying the superior audio performance of our headphones. Join the audio revolution today.</p>
@@ -228,10 +227,10 @@
                         <span class="circle" aria-hidden="true">
                         <span class="icon arrow"></span>
                         </span>
-                        <span class="button-text">Learn More</span>
+                        <a href="learnmore.html" target="_blank"><span class="button-text">Learn More</span></a>
                       </button>
                 </div>
-                <div id="service" data-aos="fade-left">
+                <div id="service">
                   
                     <h2>Justin Briones</h2>
                     <p>Experience the future of keyboard technology. Our advanced keyboard, equipped with voice commands, is designed for everyone, including those with no arm disabilities. Effortlessly control your devices, type, and communicate with ease. Empower yourself with cutting-edge accessibility and enjoy a new level of freedom and productivity.</p>
@@ -239,7 +238,7 @@
                         <span class="circle" aria-hidden="true">
                         <span class="icon arrow"></span>
                         </span>
-                        <span class="button-text">Learn More</span>
+                    <a href="learnmore.html" target="_blank"><span class="button-text">Learn More</span></a>
                       </button>
                 </div>
             </div>
@@ -249,11 +248,11 @@
 
 <!-- -----------------------Systems----------------------- -->
 
-<div id="portfolio" class="hidden">
+<div id="portfolio" data-aos="fade-up">
     <div class="container">
-        <h1 class="sub-title h1class" data-aos="zoom-in">Systems</h1>
+        <h1 class="sub-title h1class">Systems</h1>
         <div class="work-list">
-            <div class="work" data-aos="fade-right">
+            <div class="work">
                 <img src="images/jayar.png" alt="error">
                 <div class="layer">
                     <h3>Jay Ar bonagua</h3>
@@ -261,7 +260,7 @@
                     <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
-            <div class="work" data-aos="fade-up">
+            <div class="work">
                 <img src="images/mhel.png" alt="error">
                 <div class="layer">
                     <h3>Mhel Francis Bitanga</h3>
@@ -269,7 +268,7 @@
                     <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
-            <div class="work" data-aos="fade-left">
+            <div class="work">
                 <img src="images/bilaro.png" alt="error">
                 <div class="layer">
                     <h3>Christian Josh Bilaro</h3>
@@ -280,7 +279,7 @@
 
 
         
-            <div class="work" data-aos="fade-up">
+            <div class="work">
                 <img src="images/briones.png" alt="error">
                 <div class="layer">
                     <h3>Justin Briones</h3>
@@ -304,7 +303,7 @@
 <div class="timeline">
     <div class="container1 left-container">
         <img src="images/google.png" alt="">
-        <div class="text-box" data-aos="fade-right">
+        <div class="text-box">
             <h2>Alphabet Inc.</h2>
             <small>2023 - 2024</small>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error obcaecati ut deleniti dolore similique expedita architecto impedit sed incidunt?</p>
@@ -316,7 +315,7 @@
     <div class="container1 right-container">
         <img src="images/amazon.png" alt="">
 
-        <div class="text-box" data-aos="fade-left">
+        <div class="text-box" data-aos="fade-up">
             <h2>Amazon Inc.</h2>
             <small>2023 - 2024</small>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error obcaecati ut deleniti dolore similique expedita architecto impedit sed incidunt?</p>
@@ -328,7 +327,7 @@
     <div class="container1 left-container">
         <img src="images/tesla.png" alt="">
 
-        <div class="text-box" data-aos="fade-right">
+        <div class="text-box" data-aos="fade-up">
             <h2>Tesla Inc.</h2>
             <small>2023 - 2024</small>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error obcaecati ut deleniti dolore similique expedita architecto impedit sed incidunt?</p>
@@ -339,7 +338,7 @@
     <div class="container1 right-container">
         <img src="images/toyota.png" alt="">
 
-        <div class="text-box" data-aos="fade-left">
+        <div class="text-box" data-aos="fade-up">
             <h2>Toyota</h2>
             <small>2023 - 2024</small>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error obcaecati ut deleniti dolore similique expedita architecto impedit sed incidunt?</p>
@@ -350,7 +349,7 @@
     <div class="container1 left-container">
         <img src="images/youtube.png" alt="">
 
-        <div class="text-box" data-aos="fade-right">
+        <div class="text-box" data-aos="fade-up">
             <h2>Youtube</h2>
             <small>2023 - 2024</small>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error obcaecati ut deleniti dolore similique expedita architecto impedit sed incidunt?</p>
@@ -361,7 +360,7 @@
     <div class="container1 right-container">
         <img src="images/flipkart.png" alt="">
 
-        <div class="text-box" data-aos="fade-left">
+        <div class="text-box" data-aos="fade-up">
             <h2>Flipkart</h2>
             <small>2023 - 2024</small>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error obcaecati ut deleniti dolore similique expedita architecto impedit sed incidunt?</p>
@@ -376,7 +375,7 @@
 <div id="contact" class="hidden">
     <div class="container">
         <div class="row">
-            <div class="contact-left" data-aos="fade-right">
+            <div class="contact-left">
                 <h1 class="sub-title">Contact Us</h1>
                 <p><i class="fas fa-paper-plane"></i>techhub28@gmail.com</p>
                 <p><i class="fas fa-phone-square-alt"></i>09354041345</p>
@@ -388,7 +387,7 @@
                 </div>
                 <a href="Smy-cv.pdf" download class="btn btn2">Download Cv</a>
             </div>
-            <div class="contact-right" data-aos="fade-left">
+            <div class="contact-right">
                 <form>
                     <input type="text" name="Name" placeholder="Your Name" required>
                     <input type="email" name="Email" placeholder="Your email" required>
@@ -402,12 +401,6 @@
         <p>Copyright ©TECHUB. Made with <i class="fas fa-heart"></i></p>
     </div>
 </div>
-
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-
 
     <script>
 
@@ -486,7 +479,9 @@ document.querySelectorAll('nav a').forEach(anchor => {
   const wrapper = document.querySelector('.wrapper');
 
   button3.addEventListener('click', function (event) {
-    event.preventDefault(); 
+    event.preventDefault(); // Prevent the link from navigating
+
+    // Toggle the "visible" class on the wrapper
     wrapper.classList.toggle('visible');
   });
 });
@@ -513,7 +508,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
 </script>
 
-
+<script>
+    AOS.init();
+  </script>
 
 
 </body>
